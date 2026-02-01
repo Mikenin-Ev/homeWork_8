@@ -16,14 +16,14 @@ public class Main {
         System.out.println(" ");
 
         float[] arryFloat = {1.57f, 7.654f, 9.986f};
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arryFloat.length; i++) {
             System.out.println(arryFloat[i]);
         }
         System.out.println(" ");
 
         Random rand = new Random();
         int arryRnd[] = new int[20];
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < arryRnd.length; i++) {
             arryRnd[i] = rand.nextInt(30);
             System.out.println(arryRnd[i]);
         }
@@ -92,7 +92,7 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Задача 4.");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arry.length; i++) {
             if (arry[i] % 2 != 0){
                 arry[i]++;
             }
