@@ -10,7 +10,7 @@ public class Main {
         arry[0] = 1;
         arry[1] = 2;
         arry[2] = 3;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arry.length; i++) {
             System.out.println(arry[i]);
         }
         System.out.println(" ");
